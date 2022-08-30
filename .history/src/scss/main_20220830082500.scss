@@ -8,10 +8,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Outfit;
-  @media(min-width:375px) and (max-width:480px){
-    position: fixed;
-   }
-  
+  position: fixed;
 }
 
 .aboutMe {
@@ -101,7 +98,6 @@ body {
   padding-top: 1.5rem;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
- 
   &__content {
     width: 18rem;
     max-width: 19rem;
